@@ -7,7 +7,8 @@ const App = () => (
   <div className="app-container">
     <div className="orange-top-bar" />
     
-    <div className="hero" style={{ backgroundImage: `url(${LaalaImage})` }}>
+    <div className="hero">
+      <div className="hero-background" style={{ backgroundImage: `url(${LaalaImage})` }} />
       <div className="hero-overlay" />
       
       <div className="profile">
