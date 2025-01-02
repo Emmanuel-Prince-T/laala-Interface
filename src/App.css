@@ -25,6 +25,18 @@ html, body {
   justify-content: center;
 }
 
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: 0;
+}
+
 .hero-overlay {
   position: absolute;
   top: 0;
